@@ -23,7 +23,7 @@ class StarRating extends Component {
         this.setState({starsSelected})
     }
     clicked(){
-        console.log('click me')
+        console.log('click me1')
     }
     render() {
         const { totalStars } = this.props;

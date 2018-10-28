@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import AddColorForm from "./components/addColorForm"
-import StarRaiting from "./components/star-raing"
+import StarRating from "./components/star-rating"
 
 function fun (title, color){
   console.log("----", title, color)
@@ -29,7 +29,7 @@ class App extends Component {
             Learn React
           </a>
         <AddColorForm fun={fun}></AddColorForm>
-        <StarRaiting ></StarRaiting>
+        <StarRating ></StarRating>
         </header>
       </div>
     );
